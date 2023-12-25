@@ -75,7 +75,7 @@
 2. Установленные библиотеки openssl, libcrypto и lm.
 
 При разработке я использовал версию 3.0:
-```bash
+```console
 vselenaya@computer:~$ openssl version
 OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
 ```
