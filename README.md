@@ -96,7 +96,7 @@ OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
 #### Демонстрация работы для обмена сообщениями:
 
 Вывод клиента:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./client
 ЗАПУСК КЛИЕНТА
 =============
@@ -135,7 +135,7 @@ vselenaya@computer:~/socket3$
 ```
 
 Вывод сервера:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./server
 ЗАПУСК СЕРВЕРА
 =============
@@ -182,7 +182,7 @@ Cообщение от клиента:
 
 #### Демонстрация работы тестирования скорости:
 Вывод сервера:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./server test_speed
 Запуск в режиме тестирование скорости
 (вывод всех дальнейших функций отключён)
@@ -191,7 +191,7 @@ vselenaya@computer:~/socket3$
 заметим, что в данном режиме по окончании тестирования, сервер тоже завершает работу.
 
 Вывод клиента:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./client test_speed
 Начинаем тестирование скорости...
 Скорость создания TLS-сессии:
@@ -238,7 +238,7 @@ vselenaya@computer:~/socket3$
 
 #### Демонстрация атаки MIM:
 Вывод сервера:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./server
 ЗАПУСК СЕРВЕРА
 =============
@@ -269,7 +269,7 @@ EXIT
 
 ```
 Вывод клиента:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./client
 ЗАПУСК КЛИЕНТА
 =============
@@ -301,7 +301,7 @@ vselenaya@computer:~/socket3$
 Как можно заметить, клиент получил сообщения не те, которые отправлял сервер. Дело в mim, который напакостил и обидел клиента...
 
 Вывод mim:
-```bash
+```console
 vselenaya@computer:~/socket3$ ./mim
 MIM удалось подключиться к серверу!
 Сертификат подключенного собеседника
