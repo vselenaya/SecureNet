@@ -4,7 +4,7 @@
 #include "openssl/err.h"
 
 #define BUFFER_LEN 1024  // длина буфера = макс длина всех передаваемых по сети сообщений
-#define TEST_ITERS 20  // количество итераций тестирования скорости
+#define TEST_ITERS 100  // количество итераций тестирования скорости
 #define CONN_MAX 5  // ????
 
 void handleErrors(const char *info);
