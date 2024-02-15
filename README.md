@@ -244,6 +244,7 @@ vselenaya@computer:~/socket3$
 #### Демонстрация атаки MIM:
 <details>
 <summary>Вывод в терминале Linux</summary>
+    
 Вывод сервера:
 ```console
 vselenaya@computer:~/socket3$ ./server
